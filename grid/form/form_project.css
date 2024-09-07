@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://www.welovesolo.com/wp-content/uploads/vecteezy/52/j20t22nd0ki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    color: brown;
+    text-align: center;
+    
+}
+
+.fa-graduation-cap{
+    color: rgb(27, 25, 25);
+    font-size: 80px;
+    margin-left: 700px;
+}
+.form{
+    margin: 50px;
+}
+.main_name{
+    color: cornflowerblue;
+    text-align: center;
+    
+}
+
+ #name{
+    margin-left: 200px;
+}

@@ -1,0 +1,79 @@
+*
+{ margin: 0px;
+    padding: 0px;
+}
+   /* ////-----------nav bar-----------------///// */
+.two_sec_nav ul li img
+{width: 100px;
+border-radius: 50%;
+height: 80px;
+/* margin-right: 100px; */
+}
+
+.two_sec_nav
+{   background-color: rgb(222, 179, 222) ;
+    position: sticky;
+    top: 0px;
+
+}
+.two_sec_nav ul
+{  list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgba(9, 47, 82, 0.466); */
+    
+}
+
+.two_sec_nav ul li ul li a
+{  text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(47, 5, 13);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+}
+
+/* .......///////////////////////hero section//////////////////////////////// */
+
+.hero
+{ display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(222, 179, 222) ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero article .div1
+{font-size: 38px;
+    font-weight: 400;
+    color: white;
+}
+
+.hero article .div2
+{font-size: 25px;
+    font-weight: 600;
+    padding: 30px 5px 30px 5px;
+    color: rgb(207, 106, 23);
+}
+
+.hero article .div3
+{ font-size: 15px;
+    font-weight: 300;
+    background-color: orange;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero article .div1{
+    position: absolute;
+    z-index: 0;
+    
+}
+.hero article article .img3{
+    position: relative;
+    z-index: 4;
+   
+}

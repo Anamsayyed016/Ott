@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav1 
+{
+   list-style-type: none;
+   padding: 10px;
+   background-color: antiquewhite;
+}
+
+
+
+ .nav2
+{
+   
+list-style-type: none;
+padding: 10px;
+background-color: aquamarine;
+
+}
+
+.nav2 ul li a
+
+{
+    list-style-type: none;
+    color: black;
+    
+}
+
+
+.nav3
+{
+list-style-type:none ;
+padding: 10px;
+background-color: blanchedalmond;
+}

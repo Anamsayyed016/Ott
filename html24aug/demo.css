@@ -1,0 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+{
+    margin:0px;
+    padding:0px;
+      font-family: "New Amsterdam", sans-serif;
+       font-style: normal;
+      
+}
+/* ...///////////////////////////-------NAVBAR----///////////////////////////// */
+.navbar{
+   background-color: rgb(235, 175, 164);
+}
+.navbar ul {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(35, 6, 1);
+    align-items: center;
+
+}
+
+
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(237, 156, 134);
+}
+
+.navbar ul img {
+    height: 90px;
+    width: 90px;
+}
+/* ......./////////////////////---HERO------//////////////////////////////////////// */
+.hero img{
+    height: 100vh;
+    width: 100%;
+
+}
+

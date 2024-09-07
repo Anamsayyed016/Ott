@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+html{
+    overflow: hidden;
+}
+body{
+    overflow: hidden;
+}
+
+
+.card{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto auto auto auto auto;
+}
+
+.card article{
+        background-color: black;
+        height: 200px;
+        width: 300px;
+        margin: 20px;
+        
+}
+.btn{
+    width: 100px;
+    height: 60px;
+    background-color:gold;
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(106, 83, 158);
+    color: brown;
+    width: 150px;
+    border-radius: 50%;
+    transition: 2s all;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}

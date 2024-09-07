@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px ;
+}
+
+.mainnav article{
+    display: flex;
+}
+
+.mainnav article div a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.mainnav article div a img{
+    padding-left: 1000px;
+
+}

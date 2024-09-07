@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ /* /====================nav-bar====================== */
+.navbar{
+  
+}
+  
+.navbar ul li img{
+    height: 90px;
+    width: 100px;
+    /* border-radius: 50%; */
+}
+ .navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(234, 235, 245);
+ }
+.navbar ul li{
+        list-style: none;
+        
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(108, 8, 8, 0.694);
+}
+
+.hero .img1{
+  
+  
+}

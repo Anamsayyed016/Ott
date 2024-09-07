@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ section .nav_bar{
+    
+}
+ .nav_bar{
+    /* background-color: darkred; */
+}
+
+.nav_bar ul{
+    /* text-decoration: none; */
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_bar ul li  a{
+    text-decoration: none;
+}
+
+.nav_bar ul li img
+{
+    height: 50px;
+    width: 50px;
+}

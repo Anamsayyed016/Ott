@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+
+    /* nav */
+    /* .navbar{
+        position: fixed;
+    } */
+
+    
+    .navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(138, 177, 188, 0.354)
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar img{
+    height: 80px;
+    width: 100px;
+}
+
+ .home-grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+ }
+.home-grid article img{
+    height: 500px;
+    width: 500px;
+    border-radius: 15%;
+}
+
+/* about us */
+.title3 h1{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-title-sec {
+
+}
+
+.about-title-sec img{
+    height: 40vh;
+    width: 1500px;
+}
+
+
+    .makeup-title{
+        color: rgb(142, 25, 25);
+        position: absolute;
+        bottom: 15px;
+        left: 600px;
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+
+    
+
+
+     .cosmo a{
+        color: blue;
+        font-size: 25px;
+        position: absolute;
+        left: 500px;
+     }
+
+        /* ------grid cosmo----- */
+        .makeup-grid-sec{
+            display: grid;
+                grid-template-columns: auto auto auto;
+                justify-content: space-evenly;
+
+        }
+            .makeup-grid-sec article{
+                height: 400px;
+                width: 400px;
+                background-color: rgb(214, 74, 102);
+                margin: 20px;
+                border-radius: 10%;
+            }
+                .makeup-grid-sec article div img{
+                    height: 400px;
+                width: 400px;
+                }
+
+    /* lifestyle */
+
+    .Fashion{
+            display: flex;
+            justify-content: space-evenly;
+    }
+
+    .Fashion-title{
+        color: red;
+        font-size: 45px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    /* .Fashion-title img{
+        height: 300px;
+        width: 300px;
+    } */
+            .Fashion-grid{
+                display: grid;
+                grid-template-columns: auto auto ;
+                justify-content: space-evenly;
+            }
+
+            .Fashion-grid article{
+                height: 400px;
+                width: 500px;
+                background-color: rgb(214, 74, 102);
+                margin: 20px;
+                border-radius: 10%;
+            }
+
+            .Fashion-grid article div img{
+                height: 400px;
+                width: 400px;
+            }
+
+            /* bags & accesss section */
+                .bags-access-sec div a{
+                        color: blue;
+                        font-size: 35px;
+                        position: absolute;
+                        left: 600px;
+                }
+
+
+                    .bags-grid-access{
+                 display: grid;
+                grid-template-columns: auto auto  ;
+                justify-content: space-between;
+                    }
+
+                    .bags-grid-access article{
+                 height: 400px;
+                width: 600px;
+                background-color: rgb(214, 74, 102);
+                margin: 60px;
+                border-radius: 10%;
+                    }
+
+                    .bags-grid-access article div img{
+                        height: 400px;
+                        width: 600px;
+                    }
+    /* Footer and Contact  */
+
+    .footer{
+        height: 100px;
+        width: 218vh;
+
+        background-color: rgb(129, 224, 156);
+    }
+
+    .contact{
+        color: brown;
+        font-size: 35px;
+        text-align: center;
+    }
