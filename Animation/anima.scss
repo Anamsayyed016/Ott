@@ -1,0 +1,23 @@
+#slider{
+    display: flex;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#slider div{
+    width: 1000px;
+    height: 800px;
+    border: 2px solid black;
+}
+
+#slider div img{
+    width: 1000px;
+    height: 800px;
+}
+
+#main-slider{
+        overflow-x: hidden;
+        width: 1000px;
+}
