@@ -1,0 +1,31 @@
+.btn1 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: red;
+}
+
+.btn2 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: purple;
+}
+
+.btn3 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: rgb(53, 30, 155);
+}
+
+/*# sourceMappingURL=aug9.css.map */

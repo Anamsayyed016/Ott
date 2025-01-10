@@ -1,0 +1,23 @@
+
+@mixin btncss{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn1{
+    @include btncss();
+    color: red;
+}
+.btn2{
+    @include btncss();
+    color: purple;
+}
+.btn3{
+    @include btncss();
+    color: rgb(53, 30, 155);
+}
+
